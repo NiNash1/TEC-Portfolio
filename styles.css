@@ -60,7 +60,7 @@ footer {
 
 .main-content {
     overflow: auto; 
-    padding-bottom: 90px; 
+    padding-bottom: 50px; 
     text-align: center;
     font-size: 22px;
 }
@@ -111,4 +111,57 @@ footer {
 .fa-instagram:hover,.fa-instagram:active{
     color:#c934ad;
     text-decoration: none;
+}
+
+#slide{
+    padding:0;
+    margin: 0;
+    animation-name: slide;
+    animation-duration: 4s;
+    animation-delay: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    width:min-content;
+    position: relative;
+    animation-timing-function: linear;
+}
+h2{
+    margin-bottom: 10px;
+    top: 30px;
+}
+
+@keyframes slide {
+    0%   { left: 520px; bottom: 40px;}
+    100% { left:940px; bottom: 40px;}
+}
+
+#osu:hover,#osu:active{
+    background-color: rgb(230, 110, 218);
+    color: rgb(255, 255, 255) !important;
+    transition: color 1s ease;
+}
+#valo:hover,#valo:active{
+    background-color: rgb(228, 51, 75);
+    color: rgb(255, 255, 255) !important;
+    transition: color 1s ease;
+    border-radius: 2px;
+}
+
+#rm:hover,#rm:active{
+    background-color: gold;
+    color: rgb(255, 255, 255) !important;
+    transition: color 1s ease;
+    border-radius: 2px;
+}
+#mclaren:hover,#mclaren:active{
+    background-color: orange;
+    color: rgb(255, 255, 255) !important;
+    transition: color 1s ease;
+    border-radius: 2px;
+}
+#name:hover{
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   -webkit-background-clip: text;
+    color: transparent;
+    transition: color 1.5s ease;
+    cursor: pointer;
 }
