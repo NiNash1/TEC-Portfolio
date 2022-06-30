@@ -118,7 +118,6 @@ footer {
     margin: 0;
     animation-name: slide;
     animation-duration: 4s;
-    animation-delay: 4s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
     width:min-content;
