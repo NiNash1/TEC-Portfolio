@@ -160,8 +160,16 @@ h2{
     border-radius: 2px;
 }
 #name:hover{
-    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   -webkit-background-clip: text;
-    color: transparent;
-    transition: color 1.5s ease;
+    background-image: 
+    linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;  
+  animation: move 180s linear infinite;
     cursor: pointer;
+}
+
+@keyframes move {
+    to {
+      background-position: 4500vh;
+    }
 }
