@@ -1,4 +1,4 @@
-# TEC-Portfolio
+# Portfolio
 
 Come check out my Portfolio!
 
